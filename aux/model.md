@@ -1,0 +1,36 @@
+userSelection (findBy)
+
+selection_custom_title
+selection_time_subtitle
+selection_person_subtitle
+selection_queue_subtitle
+selection_call_subtitle
+
+selection_today_date (today with no selection)
+selection_now_time (now)
+
+selection_time_last_minutes (now - last minutes)
+
+selection_time_operator (equal, grater_than, less_than, different)
+
+selection_date
+selection_time
+
+selection_date_interval
+selection_time_interval
+
+selection_agent_id
+selection_person_id
+
+selection_queue_id
+selection_queue_number
+
+selection_supervisor_id
+selection_schedule_id
+selection_rol_id
+
+selection_client_id
+selection_service_id
+selection_campaign_id
+
+selection_uniqueid

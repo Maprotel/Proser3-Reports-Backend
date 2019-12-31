@@ -1,0 +1,12 @@
+{
+  "name": "call",
+  "connector": "rest",
+  "baseURL": "http://10.30.4.50",
+  "crud": false,
+  "options": {
+    "headers": {
+      "accept": "application/json",
+      "content-type": "application/json"
+    }
+  },
+}

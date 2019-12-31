@@ -1,0 +1,10 @@
+{
+  "name": "Proser3Reports",
+  "connector": "mysql",
+  "url": "",
+  "host": "localhost",
+  "port": 3306,
+  "user": "maprotel",
+  "password": "M4pr0t3l",
+  "database": "NewProser3Reports"
+}

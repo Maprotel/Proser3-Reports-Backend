@@ -1,0 +1,10 @@
+{
+  "name": "mysql",
+  "connector": "mysql",
+  "url": "",
+  "host": "${process.env.REPORTS_DB_HOST}",
+  "port": 3306,
+  "user": "${process.env.REPORTS_DB_USER}",
+  "password": "${process.env.REPORTS_DB_PASSWORD}",
+  "database": "${process.env.PROSER_REPORTS_DATABASE}"
+}
