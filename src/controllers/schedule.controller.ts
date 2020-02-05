@@ -21,7 +21,7 @@ import {
 import { Schedule } from '../models';
 import { ScheduleRepository } from '../repositories';
 
-import { loop } from '../queries/loop'
+import { loop, obtainSchedules } from '../queries/loop'
 
 export class ScheduleController {
   constructor(
@@ -200,7 +200,7 @@ export class ScheduleController {
     })
     defSchedule: Omit<Schedule, 'schedule_id'>,
   ): Promise<object> {
-    return loop();
+    return obtainSchedules();
   }
 
 

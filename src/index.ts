@@ -4,8 +4,6 @@ import { ApplicationConfig } from '@loopback/core';
 // LOCALS
 import { consoleMessage } from './functions'
 
-const chalk = require("chalk");
-
 export { ProserReportsBackend };
 
 export async function main(options: ApplicationConfig = {}) {
@@ -17,15 +15,15 @@ export async function main(options: ApplicationConfig = {}) {
 
   console.clear();
   console.log('');
-  consoleMessage('yellow', `/*************/ BACKEND /*************/`)
+  consoleMessage('yellow', `/*************/ BACKEND /*************/`);
 
-  consoleMessage('yellow', `REST api running on: ${url}`)
-  consoleMessage('white', `Origin server: ${process.env.ORIGIN_DB_HOST}`)
-  consoleMessage('white', `Reports DB: ${process.env.PROSER_REPORTS_DATABASE}`)
-  consoleMessage('white', `Inventory DB: ${process.env.PROSER_INVENTORY_DATABASE}`)
-  consoleMessage('yellow', `Realtime DB: ${process.env.PROSER_REALTIME_DATABASE}`)
+  consoleMessage('yellow', `REST api running on: ${url}`);
+  consoleMessage('white', `Origin server: ${process.env.ORIGIN_DB_HOST}`);
+  consoleMessage('white', `Reports DB: ${process.env.PROSER_REPORTS_DATABASE}`);
+  consoleMessage('white', `Inventory DB: ${process.env.PROSER_INVENTORY_DATABASE}`);
+  consoleMessage('yellow', `Realtime DB: ${process.env.PROSER_REALTIME_DATABASE}`);
 
-  consoleMessage('yellow', `/**************************************/`)
+  consoleMessage('yellow', `/**************************************/`);
   console.log('');
 
 

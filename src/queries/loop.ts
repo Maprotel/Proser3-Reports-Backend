@@ -16,7 +16,7 @@ export async function loop(): Promise<object> {
 
 
 export async function obtainSchedules(): Promise<object> {
-  let dataFromQuery = await datasource.execute('SELECT * from Schedule');
+  let dataFromQuery = await datasource.execute('SELECT * from Employee');
   let data = JSON.parse(JSON.stringify(dataFromQuery))
   console.log('data', data);
   return data;
